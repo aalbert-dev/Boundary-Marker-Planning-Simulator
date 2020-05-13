@@ -8,3 +8,5 @@ Finds a driveable path on a track defined by boundary markers, for Brandeis Auto
 * Planning code is in planner.py
 * Simulation code is in sim.py
 * Track generator code is in trackgen.py
+
+Run with python3 main.py
