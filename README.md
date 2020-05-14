@@ -26,6 +26,7 @@ While i < N:
   current_pose = getPoseFromPlanner(current_pose, boundary_points)
   i++
   ```
+```getPoseFromPlanner()``` accepts a current pose and series of boundary points as inputs and calculates the path to follow along with displaying the map and getting the new pose of the robot.  
 
 # trackgen.py
 1. set robot default pose
