@@ -18,6 +18,15 @@ Run with "python3 main.py"
 4. For N steps run the planner with the same boundary points
 5. At each step recalculate the robot pose based on the previous transform + rotation
 
+# psuedocode for simulator.simulate()
+```
+current_pose = starting_pose
+boundary_points = getPointsFromTrackGen()
+While i < N:
+  current_pose = getPoseFromPlanner(current_pose, boundary_points)
+  i++
+  ```
+
 # trackgen.py
 1. set robot default pose
 2. create circular track defined by (x, y) points
